@@ -2,10 +2,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@myapp.route("/")
 def hello():
     return "Hello World"
 
-@app.route("/Thiri")
+@myapp.route("/Thiri")
 def Thiri():
     return "Hello Thiri Than Shwe"
